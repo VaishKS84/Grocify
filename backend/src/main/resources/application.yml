@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/groc?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: Namu
+    password: gana2111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: 74b1f2c0e9c44f1d8c2a6e5f3adf7c9b0d4e6f8a2c1b3d5e6f7a9c0b1d2e3f4
+  expirationMs: 86400000
